@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Practica 3 - Vocales</title>
+</head>
+<body>
+<script>
+  function extract_vowels(str) { 
+    if (str + "" == "undefined" || str + "" == "null" || str + "" == "") 
+      return false; 
+
+    for (i = 0; i < str.length; i++)  { 
+      if ((str.charAt(i) == "a") || (str.charAt(i) == "A") ||  
+        (str.charAt(i) == "e") || (str.charAt(i) == "E") ||  
+        (str.charAt(i) == "i") || (str.charAt(i) == "I") ||  
+        (str.charAt(i) == "o") || (str.charAt(i) == "O") ||  
+        (str.charAt(i) == "u") || (str.charAt(i) == "U"))  { 
+        document.write(str.charAt(i)); 
+      } 
+    } 
+  } 
+  extract_vowels("Hola");
+  -- > (Escribe tu palabra)
+</script>
+</body>
+
+</html>
