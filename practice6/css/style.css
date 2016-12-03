@@ -1,0 +1,44 @@
+/*este es un archivo llamado sytle.css*/
+body{
+background: url(../img/fondo.jpg);
+background-size:cover;
+background-attachment: fixed;
+background-position:0 0px;
+}
+#image{
+    line-height:250px;
+	width: 300px;
+    height: 270px;
+	border:10px solid black;
+	margin:0 auto;
+    background:rgba(213,210,210,.5);
+    font-family:oswald, helvetica, arial, sans-serif;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#000;
+    text-align: center;
+    background-size:80%;
+    margin-bottom:10px;
+    font-size:60%;
+}
+.preview{
+	width:10%;
+	margin-left:17%;
+    border: 8px solid black;
+}
+.principal{
+       color:#000;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 70%;
+    font-family: 'Dancing Script', cursive;
+}
+#texto{
+    color:#000;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 100%;
+    font-family: 'Dancing Script', cursive;
+}
