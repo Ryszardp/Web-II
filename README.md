@@ -1,2 +1,2 @@
-# medical
-Proyecto salud
+# Web-II
+Practicas de seminario de aplicaciones web II
